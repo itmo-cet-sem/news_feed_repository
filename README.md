@@ -18,3 +18,6 @@ The project comprises the following components:
 - The news served by each request get sorted randomly.
 - The bandwidth usage in the server is kept at minimum by loading the images of the news directly from the source.
 
+
+### Additional notes
+* The HTML template uses a bunch of code borrowed from all over the internet, in most cases adapted for the current need, all the respective disclaimers/licences supplied remain in their places in the source files.
