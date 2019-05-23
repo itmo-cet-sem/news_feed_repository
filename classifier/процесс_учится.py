@@ -102,7 +102,6 @@ for x in list_input:
 		if not list_words[int_i]:
 			del list_words[int_i]
 			int_range = len(list_words); 
-			#int_i = 0
 		else:
 			if (list_words[int_i] in list_stopwords) or list_words[int_i].isalnum() or len(list_words[int_i])==1:
 				del list_words[int_i]
