@@ -11,8 +11,6 @@ class QuotesSpider(scrapy.Spider):
 	def parse(self, response):
 		for quote in response.css('div.menu_top a[href*="pnp.ru"]'):
 			yield {
-				#'title': quote.css('span.news-preview__title').get(),
 				'href': quote.xpath('@href').get(),
-				#'author': quote.xpath('span/small/text()').get(),
 			}
 
