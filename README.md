@@ -20,4 +20,4 @@ The project comprises the following components:
 
 
 ### Additional notes
-* The HTML template uses a bunch of code borrowed from all over the internet, in most cases adapted for the current need, all the respective disclaimers/licences supplied remain in their places in the source files.
+* The HTML template uses a bunch of code borrowed from all over the internet, in most cases adapted for the current need, all the respective disclaimers and licencing notes supplied remain in their places in the source files.
