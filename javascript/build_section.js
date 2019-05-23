@@ -183,7 +183,7 @@ const brick_entry = '\
 		<div class=\'grid-sizer\'></div>\
 ';
 
-//todo: set pagination.
+// TODO: cleanup here. Pagination went to another button.
 function set_brick_exit(json) {
 	return '\
 	 </div> <!-- end brick-wrapper --> \
