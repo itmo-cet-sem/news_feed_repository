@@ -140,7 +140,7 @@ for x in list_input:
 	for i, y in enumerate(list_tup_words):
 		for z0 in y[1]:
 			for z1 in x['list_words']:
-				if(z0[0]==z1): 				#print type(z0[0])		# z1 str , z0[0] unicode
+				if(z0[0]==z1): 
 					list_scores[i] = list_scores[i] + z0[1]
 	for i, y in enumerate(list_tup_words):
 		if(y[2]>0): list_scores[i] = float(list_scores[i]) / float(y[2])
