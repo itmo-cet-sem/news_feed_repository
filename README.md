@@ -7,7 +7,7 @@ A web-based news feed to pick up news from a variety of sources and sort them ac
 The project comprises the following components:
   * A web scrapper.
   * Javascript code running in a nodeJS server.
-  * An HTML/CSS template with support for several screen sizes, i.e. with small screens support.
+  * An HTML/CSS template with support for several screen sizes, i.e. with small screens support. This is loaded by the javascript code.
   * Code to analyze the content of each document collected, and:
     1. Learn using as reference the classification used by a single news-source, and store the patterns.
     2. Classify each content according to the learnt reference.
