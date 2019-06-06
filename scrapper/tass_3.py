@@ -3,8 +3,6 @@ from urlparse import urlparse
 import json
 decoder = json.JSONDecoder()
 
-# > tass_page_data.json && scrapy runspider tass_3.py -o tass_page_data.json
-
 with open('tass_previews_href.json', 'r') as fp:
 	list_input = json.load(fp)
 
@@ -42,4 +40,3 @@ class QuotesSpider(scrapy.Spider):
 			'section': path[int_a:int_b]
 		}
 
-#response.xpath('//meta[@property=$val]/@content', val='og:title').get()
