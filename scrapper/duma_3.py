@@ -2,8 +2,6 @@ import scrapy
 import json
 decoder = json.JSONDecoder()
 
-# > duma_page_data.json && scrapy runspider duma_3.py -o duma_page_data.json
-
 with open('duma_previews_href.json', 'r') as fp:
 	list_input = json.load(fp)
 
