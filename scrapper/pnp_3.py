@@ -3,8 +3,6 @@ from urlparse import urlparse
 import json
 decoder = json.JSONDecoder()
 
-# > pnp_page_data.json && scrapy runspider pnp_3.py -o pnp_page_data.json
-
 with open('pnp_previews_href.json', 'r') as fp:
 	list_input = json.load(fp)
 
@@ -41,5 +39,3 @@ class QuotesSpider(scrapy.Spider):
 			'text': response.css('div.js-mediator-article').get(),
 			'section': path[int_a:int_b]
 		}
-
-#response.xpath('//meta[@property=$val]/@content', val='og:title').get()
