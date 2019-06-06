@@ -31,5 +31,8 @@ class QuotesSpider(scrapy.Spider):
 			'href': response.xpath('//meta[@property=$val]/@content', val='og:url').get(),
 			'image': 'http://duma.gov.ru' + response.xpath('//meta[@property=$val]/@content', val='og:image').get(),
 			'description': response.xpath('//meta[@property=$val]/@content', val='og:description').get(),
-			'text': response.css('div.article__content').getall()
+			'text': response.css('div.article__content').getall(),
+			'section': '' #duma also stores a numerical index.  
 		}
+
+#response.xpath('//meta[@property=$val]/@content', val='og:title').get()
