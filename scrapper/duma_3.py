@@ -35,4 +35,3 @@ class QuotesSpider(scrapy.Spider):
 			'section': '' #duma also stores a numerical index.  
 		}
 
-#response.xpath('//meta[@property=$val]/@content', val='og:title').get()
